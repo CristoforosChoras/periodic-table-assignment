@@ -18,25 +18,25 @@ table {
     transition: 0.5s;
     opacity: 0.7;
   }
-  tr:nth-child(n+2):nth-child(-n+7) :nth-child(1),tr:nth-child(7) :nth-child(16){
+  tr:nth-child(n+2):nth-child(-n+7) :nth-child(1),tr:nth-child(7) :nth-child(17){
     background-color: gray;
   }
   tr:nth-child(n+2):nth-child(-n+7) :nth-child(2), tr:nth-child(7) :nth-child(15) {
     background-color: rgb(94, 69, 36);
   }
-  tr:nth-child(n+2):nth-child(-n+6) :nth-child(18),tr:nth-child(n+2):nth-child(-n+6) :nth-child(17){
+  tr:nth-child(n+1):nth-child(-n+6) :nth-child(18),tr:nth-child(n+2):nth-child(-n+6) :nth-child(17),tr:nth-child(7) :nth-child(16){
     background-color: rgb(231, 160, 231);
   }
   tr:nth-child(4) :nth-child(n+3):nth-child(-n+12){
     background-color: rgb(2, 70, 13);
   }
-  tr:nth-child(n+2):nth-child(-n+4) :nth-child(16) ,tr:nth-child(n+2):nth-child(-n+3) :nth-child(15),tr:nth-child(n+2):nth-child(-n+2) :nth-child(14){
+  tr:nth-child(n+2):nth-child(-n+4) :nth-child(16) ,tr:nth-child(n+2):nth-child(-n+3) :nth-child(15),tr:nth-child(n+2):nth-child(-n+2) :nth-child(14),tr:nth-child(1) :nth-child(1){
     background-color: yellow;
   }
   tr:nth-child(n+5):nth-child(-n+7) :nth-child(14),tr:nth-child(n+3):nth-child(-n+7) :nth-child(13),tr:nth-child(6) :nth-child(15){
     background-color: pink;
   }
-  tr:nth-child(n+3):nth-child(-n+4) :nth-child(14),tr:nth-child(n+4):nth-child(-n+5) :nth-child(15),tr:nth-child(n+5):nth-child(-n+6) :nth-child(16){
+  tr:nth-child(n+3):nth-child(-n+4) :nth-child(14),tr:nth-child(n+4):nth-child(-n+5) :nth-child(15),tr:nth-child(n+5):nth-child(-n+6) :nth-child(16),tr:nth-child(2) :nth-child(13){
     background-color: orange;
   }
   tr:nth-child(8) :nth-child(n+2):nth-child(-n+15){
@@ -54,6 +54,13 @@ table {
   tr:nth-child(7) :nth-child(n+4):nth-child(-n+12){
   background-color: rgb(2, 70, 13);
   }
+  tr:nth-child(7) :nth-child(18){
+    background-color: rgb(255, 179, 116);
+  }
+  tr:nth-child(1) :nth-child(n+2):nth-child(-n+17), tr:nth-child(2) :nth-child(n+3):nth-child(-n+12),tr:nth-child(3) :nth-child(n+3):nth-child(-n+12),tr:nth-child(8) :nth-child(1),tr:nth-child(9) :nth-child(1),tr:nth-child(8) :nth-child(n+16),tr:nth-child(9) :nth-child(n+16){
+    opacity: 0;
+  }
+
 
 
 
